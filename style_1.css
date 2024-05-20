@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: #555;
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+/* navbar */
+.navbar-brand img {
+    width: 125px;
+}
+
+/* header */
+#header {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.row {
+    align-items: center;
+    justify-content: space-around;
+}
+
+#header .row {
+    margin-top: 50px;
+}
+
+/* .home-img{
+    min-width: 300px;
+} */
+.header-img img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.header-text h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn {
+    background-color: #ff523b !important;
+    border-radius: 30px !important;
+    padding: 8px 30px !important;
+    margin: 30px 0;
+    transition: background-color 0.5s ease !important;
+}
+
+.btn:hover {
+    background-color: #563434 !important;
+}
+
+
+/* featured categories */
+#categories {
+    margin: 70px 20px;
+}
+
+.cat-item {
+    margin-bottom: 30px;
+}
+
+.cat-item img {
+    width: 100%;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 80px;
+}
+
+
+/* featued products */
+.prod-item {
+    margin-bottom: 50px;
+    transition: transform 0.5s ease;
+
+}
+
+.prod-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    line-height: 60px;
+    /* margin: 0 auto 80px; */
+    /*both are same */
+    margin-bottom: 80px;
+    color: #555;
+    position: relative;
+}
+
+.title::after {
+    content: '';
+    background-color: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.prod-item h4 {
+    color: #555;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.prod-item p {
+    font-size: 14px;
+}
+
+.prod-item:hover {
+    transform: translateY(-5px);
+
+}
+
+.rating {
+    color: #ff523b;
+}
+
+
+/* offer/Exclusive products */
+
+/* instead of writing this 2 classes here i can use the classes of header (bcz there also 2 colums one is for img and
+ other is for text i can use it here) */
+.offer-item img {
+    max-width: 100%;
+    padding: 50px;
+}
+
+.offer-item h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+#offer {
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+small {
+    color: #555;
+}
+
+
+/* testimonials */
+#testimonials {
+    padding-top: 100px;
+}
+
+#testimonials .small-container {
+    padding: 0 160px;
+}
+
+.test-item {
+    margin: auto -20px 30px;
+    text-align: center;
+    padding: 40px 10px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.test-item:hover {
+    transform: translateY(-10px);
+}
+
+.test-item img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.test-item h3 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #555;
+}
+
+.test-item p {
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.fa-quote-left {
+    color: #ff523b;
+    font-size: 34px;
+}
+
+/* brand */
+#brands {
+    margin: 100px auto;
+}
+
+#brands .col-5 {
+    width: 160px;
+}
+
+.col-5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover {
+    filter: grayscale(0);
+}
+
+
+                                        /* footer */
+#footer{
+    background-color: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 40px;
+    text-align: center;
+}
+#footer p{
+    color: #8a8a8a;
+}
+#footer h3{
+    color: #fff;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.footer-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-1, .footer-2 , .footer-3 , .footer-4{
+    
+    margin-bottom: 20px;
+}
+ul{
+    list-style-type: none;
+}
+
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+
+#footer hr{
+    border: none;
+    background-color: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
