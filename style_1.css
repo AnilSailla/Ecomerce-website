@@ -213,6 +213,7 @@ small {
 
 #brands .col-5 {
     width: 160px;
+    margin-bottom: 10px;
 }
 
 .col-5 img {
@@ -271,4 +272,40 @@ ul{
 
 .copyright{
     text-align: center;
+}
+.menu-icon{
+    width: 25px;
+    height: 30px;
+    margin: auto;
+    margin-left: 20px;
+    display: none;
+}
+
+
+                                                /* media queries for menu icon */
+@media screen and (max-width: 768px) {
+    
+    .navbar-nav{
+        position: absolute;
+        top:70px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    .nav-item{
+        /* display: block; */
+        margin-right: 20px;
+        margin-left: auto;
+
+    }
+    .nav-link{
+        color: #fff !important;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
 }
