@@ -90,6 +90,9 @@ body {
     width: 100%;
     border-radius: 10px;
 }
+.prod-item a{
+    text-decoration: none;
+}
 
 .title {
     text-align: center;
@@ -282,7 +285,7 @@ ul{
 }
 
 
-                                                /* media queries for menu icon */
+                                        /* media queries for menu icon */
 @media screen and (max-width: 768px) {
     
     .navbar-nav{
@@ -308,4 +311,253 @@ ul{
         display: block;
         cursor: pointer;
     }
+
+    /* mediaquery for cart page */
+    .cart-info {
+        font-size: 0.8rem;
+    }
+    .cart-info p{
+        margin-bottom: 3px;
+    }
+}
+
+                                /* for products page */
+.products-row h2{
+    display: inline;
+}
+.products-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto ;
+}
+select{
+    height: 30px;
+    border: 1px solid #ff523d;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 13px;
+}
+select option{
+    font-size: 13px;
+}
+select:focus{
+    outline: none;
+}
+
+.page-btn{
+    margin: 0 auto 80px;
+}
+
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.page-btn span:hover{
+    background-color: #ff523b;
+    color: #fff;
+}
+
+
+
+                                /* for single product */
+.single-product{
+    margin-top: 80px;
+}
+
+.single-product .col-md-6 img{
+    padding: 0;
+}
+
+.single-product .col-md-6{
+    padding:20px ;
+}
+
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.single-product select{
+    display: block;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+.single-product input:focus{
+    outline: none;
+}
+
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+
+                                /* for accounts page */
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.form-container{
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+#logInForm{
+    left: -300px;
+}
+
+#signUpForm{
+    left: 0px;
+}
+
+form a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #777;
+}
+
+#indicator{
+    width: 100px;
+    height: 3px;
+    padding: 0 50px;
+    border: none;
+    background: #ff523b;
+    margin-top: 8px;
+    transform: translateX(150px);
+    transition: transform 1s;
+}
+
+
+                                    /* for Cart page*/
+.cart-page{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background-color: #ff523b;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+td img{
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 350px;
+}
+
+th:last-child{
+    text-align: right;
+}
+td:last-child{
+    text-align: right;
+}
+
+
+                              /* for aboutus page */
+.about-page h1{
+    color: #ff523b;
+}
+
+.about-page h3{
+    text-align: center;
+    color: #b5b5b5;
 }
